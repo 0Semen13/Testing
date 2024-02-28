@@ -1,0 +1,12 @@
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\bin\Debug\net7.0\TestingLab2.deps.json
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\bin\Debug\net7.0\TestingLab2.dll
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\bin\Debug\net7.0\TestingLab2.pdb
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.csproj.AssemblyReference.cache
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.AssemblyInfoInputs.cache
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.AssemblyInfo.cs
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.csproj.CoreCompileInputs.cache
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.dll
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\refint\TestingLab2.dll
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\TestingLab2.pdb
+C:\Users\Semen\source\repos\TestingLab2\TestingLab2\obj\Debug\net7.0\ref\TestingLab2.dll
