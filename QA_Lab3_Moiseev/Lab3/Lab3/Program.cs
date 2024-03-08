@@ -1,6 +1,12 @@
 ﻿using System;
 namespace Lab3 {
+    /**
+     * @brief Класс проекта с функцией main
+     */
     internal class Program {
+        /**
+         * @brief Функция, являющаяся точкой входа в программу
+         */
         public static void Main(string[] args) {
             ComplexNumber firstNumb = new ComplexNumber();
             firstNumb.Read();

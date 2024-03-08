@@ -3,7 +3,6 @@ D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\bin\Debug\net7.0\Lab3
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\bin\Debug\net7.0\Lab3.runtimeconfig.json
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\bin\Debug\net7.0\Lab3.dll
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\bin\Debug\net7.0\Lab3.pdb
-D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\obj\Debug\net7.0\Lab3.csproj.AssemblyReference.cache
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\obj\Debug\net7.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\obj\Debug\net7.0\Lab3.AssemblyInfoInputs.cache
 D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\Lab3\Lab3\obj\Debug\net7.0\Lab3.AssemblyInfo.cs
