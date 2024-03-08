@@ -1,6 +1,6 @@
 ﻿namespace Lab3 {
 /**
- * @brief Класс комплексного числа
+ * \brief Класс комплексного числа
  */
     public class ComplexNumber {
         //! Вещественная часть комплексного числа
@@ -67,6 +67,7 @@
          * @return Модуль комплексного числа
          * 
          * Данная функция вычисляет значение модуля комплексного числа по формуле: \f$\sqrt{(realPart)^2+(imaginaryPart)^2}\f$.
+         * 
          * Код функции выглядит следубщим образом:
          * \code
          * public float Modulus() {
@@ -74,8 +75,8 @@
          *    return modul;
          * }
          * \endcode
-         * @image html img.jpg
-         * @image html img.png
+         *
+         * Результат: \image html D:\Projects\Repositories\Testing\QA_Lab3_Moiseev\img\img.png
          */
         public float Modulus() {
             float modul = (float)Math.Sqrt((realPart * realPart) + (imaginaryPart * imaginaryPart));

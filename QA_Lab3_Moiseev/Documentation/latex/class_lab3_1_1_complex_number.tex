@@ -1,0 +1,104 @@
+\doxysection{Lab3.\+Complex\+Number Class Reference}
+\label{class_lab3_1_1_complex_number}\index{Lab3.ComplexNumber@{Lab3.ComplexNumber}}
+
+
+Класс комплексного числа  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_lab3_1_1_complex_number_a1ab1684dd1c6c671cf9450f03ee7b4c0} 
+{\bfseries Complex\+Number} ()
+\begin{DoxyCompactList}\small\item\em Конструктор класа \end{DoxyCompactList}\item 
+void \textbf{ Init} (float realP, float imaginaryP)
+\begin{DoxyCompactList}\small\item\em Функция инициализации объекта класса Complex\+Number. \end{DoxyCompactList}\item 
+\label{class_lab3_1_1_complex_number_a424d9d63dcb94f37a3407d9b8dfcf50f} 
+void {\bfseries Read} ()
+\begin{DoxyCompactList}\small\item\em Функция чтения введенных данных комплексного числа из терминала \end{DoxyCompactList}\item 
+\label{class_lab3_1_1_complex_number_a26c8d6199a6160ccc0c76b500eb9daa0} 
+void {\bfseries Display} ()
+\begin{DoxyCompactList}\small\item\em Функция вывода данных комплексного числа \end{DoxyCompactList}\item 
+float \textbf{ Modulus} ()
+\begin{DoxyCompactList}\small\item\em Функция высчитывания модуля комплексного числа \end{DoxyCompactList}\item 
+\textbf{ Complex\+Number} \textbf{ Add} (\textbf{ Complex\+Number} numb1, \textbf{ Complex\+Number} numb2)
+\begin{DoxyCompactList}\small\item\em Функция сложения двух комплексных чисел \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_lab3_1_1_complex_number_a0a3632350dcbabfff99c313d17f957e5} 
+float {\bfseries Real\+Part}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Свойство property поля real\+Part. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс комплексного числа 
+
+\doxysubsection{Member Function Documentation}
+\label{class_lab3_1_1_complex_number_ac22ff8fcbf44dca67bf27dbd5fc57796} 
+\index{Lab3.ComplexNumber@{Lab3.ComplexNumber}!Add@{Add}}
+\index{Add@{Add}!Lab3.ComplexNumber@{Lab3.ComplexNumber}}
+\doxysubsubsection{Add()}
+{\footnotesize\ttfamily \textbf{ Complex\+Number} Lab3.\+Complex\+Number.\+Add (\begin{DoxyParamCaption}\item[{\textbf{ Complex\+Number}}]{numb1,  }\item[{\textbf{ Complex\+Number}}]{numb2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция сложения двух комплексных чисел 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em numb1} & Первое комплексное число \\
+\hline
+\mbox{\texttt{ in}}  & {\em numb2} & Второе комплексное число \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Комплексное число, являющееся суммой двух комплексных чисел, передаваемых в параметрах 
+\end{DoxyReturn}
+\label{class_lab3_1_1_complex_number_a643e98687f8cab5ef79c956402f9df01} 
+\index{Lab3.ComplexNumber@{Lab3.ComplexNumber}!Init@{Init}}
+\index{Init@{Init}!Lab3.ComplexNumber@{Lab3.ComplexNumber}}
+\doxysubsubsection{Init()}
+{\footnotesize\ttfamily void Lab3.\+Complex\+Number.\+Init (\begin{DoxyParamCaption}\item[{float}]{realP,  }\item[{float}]{imaginaryP }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция инициализации объекта класса Complex\+Number. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em realP} & Вещественная часть комплексного числа \\
+\hline
+\mbox{\texttt{ in}}  & {\em imaginaryP} & Мнимая часть комплексного числа \\
+\hline
+\end{DoxyParams}
+\label{class_lab3_1_1_complex_number_a5ef989cd409daf2446ced42263918195} 
+\index{Lab3.ComplexNumber@{Lab3.ComplexNumber}!Modulus@{Modulus}}
+\index{Modulus@{Modulus}!Lab3.ComplexNumber@{Lab3.ComplexNumber}}
+\doxysubsubsection{Modulus()}
+{\footnotesize\ttfamily float Lab3.\+Complex\+Number.\+Modulus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция высчитывания модуля комплексного числа 
+
+\begin{DoxyReturn}{Returns}
+Модуль комплексного числа
+\end{DoxyReturn}
+Данная функция вычисляет значение модуля комплексного числа по формуле\+: $\sqrt{(realPart)^2+(imaginaryPart)^2}$.
+
+Код функции выглядит следубщим образом\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{public}\ \textcolor{keywordtype}{float}\ Modulus()\ \{}
+\DoxyCodeLine{\ \ \ \textcolor{keywordtype}{float}\ modul\ =\ (float)Math.Sqrt((realPart\ *\ realPart)\ +\ (imaginaryPart\ *\ imaginaryPart));}
+\DoxyCodeLine{\ \ \ \textcolor{keywordflow}{return}\ modul;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Результат\+: 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Lab3/\+Lab3/Complex\+Number.\+cs\end{DoxyCompactItemize}

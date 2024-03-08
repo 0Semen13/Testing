@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Lab3 {
     /**
-     * @brief Класс проекта с функцией main
+     * @brief Шлавный класс проекта с функцией main
      */
     internal class Program {
         /**

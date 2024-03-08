@@ -1,6 +1,6 @@
 namespace Lab3 {
     /**
-     * @brief Класс человека
+     * @brief Класс "Человек"
      */
     public class Person {
         //! Имя Человека
